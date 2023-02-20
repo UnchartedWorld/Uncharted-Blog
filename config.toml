@@ -1,7 +1,8 @@
-baseURL = "/"
+baseURL = "https://unchartedworld.github.io/Uncharted-Blog/"
 languageCode = "en-gb"
 theme = "poison"
 paginate = 10
+title = "Uncharted World Blog"
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 [params]
