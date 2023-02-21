@@ -2,7 +2,6 @@
 title: "Introduction to Blog"
 description: "A brief introduction to the blog and my reason for creating it."
 date: 2023-02-20T15:49:19Z
-draft: true
 toc: false
 image: ""
 tags: ["UnchartedWorld", "Introduction" ]
