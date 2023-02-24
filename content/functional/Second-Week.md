@@ -8,6 +8,7 @@ image: ""
 tags: []
 series: Functional Programming
 type: Functional
+lastmod: 2023-02-24T11:34:09.453Z
 ---
 
 # Second Week – Recursion
@@ -178,7 +179,7 @@ def gt(m: Num)(n: Num): Boolean = (m, n) match
 
 This can be expanded to multiplication, addition and so on. The benefit of doing this recursively is obvious – it reduces definition calls to a simple one-liner, makes reading the code much easier and simpler to write. Debugging is a different story, but you'll learn how to do that as you work with your code.
 
-### <a name="Syntactic"></a> Syntactic sugar
+### Syntactic sugar
 
 Now, you might – quite fairly – suggest that stuff like `def gt` is somewhat clumsy to call. You have to call the name, then input the values that are needed. What if you wanted to make them easier to call, say turning `def gt` into `def >`? Scala lets you do that. This is referred to as **infix notation**. Below is an example using the code we've already examined prior:
 
