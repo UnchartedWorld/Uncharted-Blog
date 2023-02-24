@@ -1,12 +1,13 @@
 ---
-title: "Third Week"
+title: Third Week
 #description: <descriptive text here>
 date: 2023-02-20T17:40:57Z
 draft: true
 toc: true
 image: ""
 tags: []
-series: "Functional Programming"
+series: Functional Programming
+lastmod: 2023-02-24T11:34:25.500Z
 ---
 
 # Week 3 – Lists I
@@ -76,4 +77,4 @@ This works because the majority of Scala's collection classes are covariant in a
 
 ### Constructing Scala lists
 
-You would've noticed at the beginning of this, we used `::`. This actually syntactic sugar – something we covered in the [previous week here]({{< ref "/Second-Week#Syntactic" >}} "Second Week").
+You would've noticed at the beginning of this, we used `::`. This actually syntactic sugar – something we covered in the [previous week here]({{< ref "/Second-Week#syntactic-sugar" >}} "Second Week").
