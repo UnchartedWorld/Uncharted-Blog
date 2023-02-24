@@ -1,0 +1,89 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "fields",
+          "fields": []
+        },
+        {
+          "title": "series",
+          "name": "series",
+          "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts",
+      "originalPath": "[[workspace]]/content/posts"
+    },
+    {
+      "title": "functional",
+      "path": "[[workspace]]/content/functional",
+      "originalPath": "[[workspace]]/content/functional"
+    },
+    {
+      "title": "about",
+      "path": "[[workspace]]/content/about"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Introduction",
+    "UnchartedWorld"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "Personal"
+  ],
+  "frontMatter.content.autoUpdateDate": true
+}
