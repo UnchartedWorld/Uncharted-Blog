@@ -4,6 +4,7 @@ theme = "poison"
 paginate = 10
 title = "Uncharted World Blog"
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
+enableGitInfo = true
 
 [params]
     brand = "UnchartedWorld - Blog"                      # name of your site - appears in the sidebar
@@ -18,7 +19,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "About", URL = "/about/", HasChildren = true, Limit = 1},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
         {Name = "Functional Programming Notes", URL = "/functional/", Pre = "Recent", HasChildren = true, Limit = 5}
     ]
@@ -65,6 +66,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     table_border_color_dark = "#515151" # default is #515151
     table_stripe_color_dark = "#202020" # default is #202020
 
+    custom_css = ["css/hyde-override.css"]
+
 [taxonomies]
     series = 'series'
+    categories = 'categories'
     tags = 'tags'
