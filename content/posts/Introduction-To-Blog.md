@@ -1,11 +1,16 @@
 ---
-title: "Introduction to Blog"
-description: "A brief introduction to the blog and my reason for creating it."
+title: Introduction to Blog
+description: A brief introduction to the blog and my reason for creating it.
 date: 2023-02-20T15:49:19Z
 toc: false
+draft: false
 image: ""
-tags: ["UnchartedWorld", "Introduction" ]
-categories: ["Personal"]
+tags:
+  - UnchartedWorld
+  - Introduction
+categories:
+  - Personal
+type: post
 ---
 
 # Hi, welcome to my blog,
