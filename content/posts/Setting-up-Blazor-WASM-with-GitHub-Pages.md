@@ -44,17 +44,17 @@ This is where I made a mistake on my initial setup and would've avoided countles
 
 First, go to your desired repository's settings, as seen in the screenshot below:
 
-![Locating GitHub Repository Settings Button](/static/images/repo-settings.png)
+![Locating GitHub Repository Settings Button](https://raw.githubusercontent.com/UnchartedWorld/Uncharted-Blog/main/static/images/repo-settings.png)
 
 This will take you to your repository's settings. From here, you'll want to locate the "Actions" sidebar option and as of the date of the creation of this markdown file (namely 14/08/2023), it can be found under Actions -> General. It will look something like the screenshot below:
 
-![Location of General on Settings page](/static/images/location-of-general.png)
+![Location of General on Settings page](https://raw.githubusercontent.com/UnchartedWorld/Uncharted-Blog/main/static/images/location-of-general.png)
 
 From here, you'll need to find the "Workflow Permissions", which should be somewhere down the page. You need to locate a radio button that states "Read and write permissions". You likely *don't* have this checked, as GitHub by default doesn't allow actions to have read/write permissions across all scopes in a repository. You want to change this, as your GITHUB_TOKEN (something that you'll need in later stages with your workflow file) doesn't currently have the elevated permissions to write.
 
 The radio buttons should look like something below (do note that I've already selected the read/write permission):
 
-![Radio button that indicates read/write permissions on GitHub Actions](/static/images/workflow-permissions.png)
+![Radio button that indicates read/write permissions on GitHub Actions](https://raw.githubusercontent.com/UnchartedWorld/Uncharted-Blog/main/static/images/workflow-permissions.png)
 
 This step is crucial, as it appears that our GitHub Actions workflow cannot make and push changes to the gh-pages branch. I'm not totally sure on the implications of this, but that appears to be the reason as to why - given that without this, you'll get a git exit code 128. This and other solutions can be found at [this StackOverflow answer](https://stackoverflow.com/questions/76023778/action-failed-with-the-process-usr-bin-git-failed-with-exit-code-128).
 
