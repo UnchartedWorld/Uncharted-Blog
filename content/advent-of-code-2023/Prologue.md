@@ -4,8 +4,10 @@ date: 2023-12-04T23:22:10Z
 draft: false
 toc: true
 image: ""
-tags: []
-series: "Advent-Of-Code-2023"
+tags: 
+  - UnchartedWorld
+  - Exercises
+series: "Advent Of Code 2023"
 type: "AdventOfCode"
 ---
 

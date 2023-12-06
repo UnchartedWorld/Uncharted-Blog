@@ -6,7 +6,7 @@ draft: true
 toc: false
 image: ""
 tags: []
-series: "Advent-Of-Code-2023"
+series: "Advent Of Code 2023"
 ---
 
 # Descriptive text here...
